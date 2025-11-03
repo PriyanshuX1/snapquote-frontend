@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import Dashboard from "./Dashboard.jsx";
-import ShinyText from "./ShinyText.jsx"; // import the animation
 
 const API_BASE_URL = 'http://localhost:5000';
 
@@ -86,11 +85,6 @@ export default function App() {
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.4, delay: 0.6 }}
                 >
-                  <ShinyText
-                    text="Sign in to continue to your dashboard"
-                    speed={3}
-                    className="text-gray-400 text-lg font-medium"
-                  />
                 </motion.div>
               </motion.div>
 
