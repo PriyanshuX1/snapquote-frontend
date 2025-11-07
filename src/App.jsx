@@ -3,7 +3,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import Dashboard from "./Dashboard.jsx";
 
-const API_BASE_URL = 'https://snapquote-backend.eastus2.cloudapp.azure.com/';
+const API_BASE_URL = 'https://snapquote-backend.eastus2.cloudapp.azure.com';
 
 export default function App() {
   const navigate = useNavigate();
